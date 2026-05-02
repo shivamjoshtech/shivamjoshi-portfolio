@@ -16,6 +16,7 @@ export const SITE_CONFIG = {
 export const NAV_ITEMS = [
   { id: 'hero', label: 'HOME', shortLabel: 'HQ' },
   { id: 'about', label: 'ABOUT', shortLabel: 'BIO' },
+  { id: 'education', label: 'EDUCATION', shortLabel: 'EDU' },
   { id: 'experience', label: 'EXPERIENCE', shortLabel: 'OPS' },
   { id: 'skills', label: 'TECH ARSENAL', shortLabel: 'ARSL' },
   { id: 'projects', label: 'PROJECTS', shortLabel: 'PROJ' },

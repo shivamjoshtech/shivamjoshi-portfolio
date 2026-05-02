@@ -1,0 +1,47 @@
+
+STEP 1 — Foundation & Project Setup
+Next.js 14 project initialize, folder structure, GitHub repo, Supabase setup (database for visitor logs, admin data), environment variables, aur base theme setup (GitHub Dark + Military accent colors — dark greens, golds, tactical grid patterns).
+
+
+STEP 2 — Premium Theme & Layout System
+Global layout, navigation (tactical/military style sidebar or top-nav), page routing, fonts (monospace + sans combo), CSS variables, responsive grid system, dark premium aesthetic with subtle animations (grid lines, scan effects).
+
+
+STEP 3 — Hero / Landing Section
+Cinematic landing page — animated intro with your name, title, tagline. Military-style "briefing" feel. Typing animation, particle/grid background, glitch effects. First impression = "yeh banda alag hai."
+
+
+STEP 4 — About Me + Education + Experience Sections
+Timeline-style sections — School, College, Work Experience (Outlier AI, TCS), Core Competencies, Achievements/Hackathons. Animated cards, scroll-triggered reveals. Sab tera resume data se populate hoga.
+
+
+STEP 5 — Skills Section (Tech Arsenal)
+Categorized skill display with realistic framework/language logos. Interactive — hover pe details. Military theme mein "Tech Arsenal" ya "Weapons System" jaisa feel.
+
+
+STEP 6 — Projects Showcase (The Core)
+Categorized projects (Major / Mini / Freelance / Invented / Client Demand). Har project ka — video embed, GitHub link, tech stack with real logos, description. Filter/sort system. Admin se dynamically add hoga.
+
+
+STEP 7 — AI Cartoon Avatar (ARIA — Your Digital Twin)
+Animated cartoon character jo tere jaisa dikhey. Visitor se naam puche, details puche (optional), real-time AI conversation (free LLM API use karenge). Voice bhi hogi. Visitor data Supabase mein store hoga.
+
+
+STEP 8 — Contact, Resume Download & Scheduling Section
+Contact form (email, WhatsApp link), Resume PDF download button, Meeting scheduler (Calendly free embed ya custom solution). "Want to Connect" section.
+
+
+STEP 9 — Admin Dashboard (Secret)
+Protected route — login karke:
+
+Projects add/edit/delete (video, tech, category, GitHub link)
+Visitor list dekho (kaun aaya, naam, details jo unhone diye)
+Resume upload/update
+Analytics (visits, popular projects)
+
+STEP 10 — Deployment & Final Polish
+Vercel pe free deploy, custom domain (optional), SEO, OG images, performance optimization, final testing across devices.
+
+Tech Stack (Sab FREE):
+Next.js 14 + React + TypeScript + Tailwind CSS + Framer Motion + Supabase (DB + Auth) + Free AI API (Groq/Gemini) + Vercel hosting
+Theme Vibe: GitHub Dark aesthetic + Military tactical overlay — dark backgrounds, neon green/gold accents, monospace fonts, grid patterns, scan-line effects, "classified document" feel.
