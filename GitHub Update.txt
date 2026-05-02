@@ -1,0 +1,144 @@
+================================================
+  GITHUB UPDATE GUIDE — Shivam Portfolio
+  Jab bhi code change karo, yeh steps follow karo
+================================================
+
+--------------------------------------------
+STEP 1 — VS Code mein Terminal kholo
+--------------------------------------------
+
+Ctrl + ` (backtick) press karo
+Ya View → Terminal
+
+--------------------------------------------
+STEP 2 — Project folder mein jao
+--------------------------------------------
+
+cd "D:\Shivam Joshi\shivam-portfolio"
+
+--------------------------------------------
+STEP 3 — Kya kya badla check karo
+--------------------------------------------
+
+git status
+
+(Yeh dikhayega konsi files change hui hain)
+
+--------------------------------------------
+STEP 4 — Sab changes add karo
+--------------------------------------------
+
+git add .
+
+(Dot matlab sab files add karo)
+
+Ya specific file add karni ho toh:
+git add src/components/sections/AboutSection.tsx
+
+--------------------------------------------
+STEP 5 — Commit karo (message likho kya badla)
+--------------------------------------------
+
+git commit -m "kya change kiya yahan likho"
+
+Examples:
+git commit -m "Updated TCS experience to 2 years"
+git commit -m "Added new project in ProjectsSection"
+git commit -m "Fixed ARIA voice bug"
+git commit -m "Updated contact section"
+
+--------------------------------------------
+STEP 6 — GitHub pe push karo
+--------------------------------------------
+
+git push origin main
+
+--------------------------------------------
+STEP 7 — Vercel auto deploy karega!
+--------------------------------------------
+
+Vercel automatically detect karega GitHub change
+aur 1-2 minute mein live update ho jayega.
+
+Vercel pe check karo:
+https://vercel.com/dashboard
+
+--------------------------------------------
+COMPLETE EXAMPLE — Ek cheej update ki
+--------------------------------------------
+
+Maan lo tune AboutSection.tsx update kiya:
+
+1. File save karo (Ctrl + S)
+2. Terminal kholo
+3. cd "D:\Shivam Joshi\shivam-portfolio"
+4. git status
+5. git add .
+6. git commit -m "Updated about section description"
+7. git push origin main
+8. Done! Vercel 1-2 min mein live karega.
+
+--------------------------------------------
+COMMON SCENARIOS
+--------------------------------------------
+
+Scenario 1: Multiple files change kiye
+  git add .
+  git commit -m "Updated skills and projects section"
+  git push origin main
+
+Scenario 2: Sirf .env.local change kiya
+  .env.local GitHub pe NAHI jaati (safe hai)
+  Vercel Dashboard pe jaake manually update karo:
+  Settings → Environment Variables → Edit → Save
+  Phir Vercel mein Redeploy karo.
+
+Scenario 3: Naya file/folder banaya
+  git add .
+  git commit -m "Added new component"
+  git push origin main
+
+Scenario 4: Galti ho gayi, wapas lana hai
+  git restore src/components/sections/AboutSection.tsx
+  (Specific file ki last committed state wapas aayegi)
+
+Scenario 5: Pichla commit dekhna hai
+  git log --oneline
+  (Sare commits dikhenge with messages)
+
+--------------------------------------------
+VERCEL MEIN ENV VARIABLE UPDATE KARNA
+--------------------------------------------
+
+Jab .env.local mein kuch change karo:
+
+1. https://vercel.com/dashboard jaao
+2. shivamjoshi-portfolio project click karo
+3. Settings → Environment Variables
+4. Jo variable change karna hai usse edit karo
+5. Save karo
+6. Deployments → Redeploy karo
+
+--------------------------------------------
+QUICK REFERENCE — 3 Commands Yaad rakho
+--------------------------------------------
+
+git add .
+git commit -m "kya badla"
+git push origin main
+
+Bas yahi teen commands hain!
+Har baar code change karne ke baad yahi karo.
+
+--------------------------------------------
+NOTE
+--------------------------------------------
+
+* .env.local kabhi push nahi hogi (safe hai)
+* node_modules kabhi push nahi hogi (heavy hai)
+* Vercel auto-deploy karta hai har push pe
+* GitHub pe changes aate hain → Vercel update hota hai
+
+================================================
+  Shivam Joshi Portfolio — GitHub Workflow Guide
+================================================
