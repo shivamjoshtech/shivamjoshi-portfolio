@@ -2,7 +2,9 @@
   GITHUB UPDATE GUIDE — Shivam Portfolio
   Jab bhi code change karo, yeh steps follow karo
 ================================================
-
+git add .
+git commit -m "Update Message !"
+git push origin main
 --------------------------------------------
 STEP 1 — VS Code mein Terminal kholo
 --------------------------------------------
