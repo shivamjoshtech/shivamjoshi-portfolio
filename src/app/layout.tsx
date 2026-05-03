@@ -2,7 +2,10 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'SHIVAM JOSHI — AI Engineer | GenAI Developer',
+  title: {
+  default: '⚡ SHIVAM JOSHI — AI Engineer',
+  template: '%s | Shivam Joshi',
+},
   description:
     'Portfolio of Shivam Joshi — AI Engineer at TCS, GenAI Developer, Multi-Agent Pipeline Architect. Building intelligent systems that think, reason, and deliver. Expertise in Python, LangChain, LLMs, Geospatial AI.',
   keywords: [
@@ -42,9 +45,13 @@ export const metadata: Metadata = {
       follow: true,
     },
   },
-  icons: {
-    icon: '/favicon.ico',
-  },
+icons: {
+  icon: [
+    { url: '/favicon.ico' },
+    { url: '/icon.png', type: 'image/png' },
+  ],
+  shortcut: '/favicon.ico',
+},
 };
 
 export default function RootLayout({
