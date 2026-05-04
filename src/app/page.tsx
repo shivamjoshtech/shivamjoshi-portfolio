@@ -330,7 +330,7 @@ export default function Home() {
             DESIGNED & BUILT BY SHIVAM JOSHI
           </div>
           <div className="font-mono text-[10px] text-base-700 mt-1">
-            © 2026 • ALL RIGHTS RESERVED
+            © {new Date().getFullYear()} • ALL RIGHTS RESERVED
           </div>
         </footer>
       </div>
