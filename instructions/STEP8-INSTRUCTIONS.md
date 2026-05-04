@@ -60,7 +60,7 @@ Browser: `http://localhost:3000` → scroll to Contact
 
 ### ✅ FOOTER
 - "DESIGNED & BUILT BY SHIVAM JOSHI"
-- "© 2025 • ALL RIGHTS RESERVED"
+- "© 2026 • ALL RIGHTS RESERVED"
 
 ---
 
