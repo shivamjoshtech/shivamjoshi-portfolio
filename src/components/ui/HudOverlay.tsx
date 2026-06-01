@@ -41,7 +41,7 @@ export default function HudOverlay() {
 
       {/* Bottom Center */}
       <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-50 hud-coords text-center hidden lg:block">
-        <span className="text-base-600">© 2025 SHIVAM JOSHI</span>
+        <span className="text-base-600">© 2026 SHIVAM JOSHI</span>
         <span className="text-base-700 mx-2">•</span>
         <span className="text-tactical-700">ALL SYSTEMS NOMINAL</span>
       </div>
